@@ -275,10 +275,15 @@ main {
         width: 288px;
         height: 480px;
         background: #00000008;
+        overflow: hidden;
         .img {
           img {
             width: 100%;
             height: 290px;
+            transition: 0.3s linear;
+            &:hover {
+              transform: scale(1.02);
+            }
           }
           .sale {
             display: flex;
