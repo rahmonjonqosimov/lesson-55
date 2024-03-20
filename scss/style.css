@@ -244,7 +244,7 @@ main .prodact .cards {
 main .prodact .cards .card {
   padding: 12px;
   width: 288px;
-  height: 473px;
+  height: 480px;
   background: rgba(0, 0, 0, 0.031372549);
 }
 main .prodact .cards .card .img img {
@@ -255,6 +255,7 @@ main .prodact .cards .card .img .sale {
   display: flex;
   justify-content: space-between;
   position: relative;
+  margin-bottom: 10px;
   z-index: 1;
 }
 main .prodact .cards .card .img .sale .galichka {

@@ -9,7 +9,8 @@ const PRODUCTS = [
     stock: 94,
     brand: "Apple",
     category: "smartphones",
-    thumbnail: "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg",
+    thumbnail:
+      "https://jmskart.com/wp-content/uploads/2023/12/full_body_housing_for_apple_iphone_9_white_maxbhi.com_41205.jpg",
     images: [
       "https://cdn.dummyjson.com/product-images/1/1.jpg",
       "https://cdn.dummyjson.com/product-images/1/2.jpg",
@@ -29,7 +30,8 @@ const PRODUCTS = [
     stock: 34,
     brand: "Apple",
     category: "smartphones",
-    thumbnail: "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg",
+    thumbnail:
+      "https://cdn.alloallo.media/catalog/product/apple/iphone/iphone-x/iphone-x-space-gray-back.jpg",
     images: [
       "https://cdn.dummyjson.com/product-images/2/1.jpg",
       "https://cdn.dummyjson.com/product-images/2/2.jpg",
@@ -48,7 +50,8 @@ const PRODUCTS = [
     stock: 36,
     brand: "Samsung",
     category: "smartphones",
-    thumbnail: "https://cdn.dummyjson.com/product-images/3/thumbnail.jpg",
+    thumbnail:
+      "https://www.jiomart.com/images/product/original/rvo3wzdjgm/gadgetswrap-printed-vinyl-skin-sticker-for-samsung-galaxy-note-9-universe-planet-space-product-images-orvo3wzdjgm-p603877821-0-202308141810.jpg?im=Resize=(1000,1000)",
     images: ["https://cdn.dummyjson.com/product-images/3/1.jpg"],
   },
   {
@@ -61,7 +64,8 @@ const PRODUCTS = [
     stock: 123,
     brand: "OPPO",
     category: "smartphones",
-    thumbnail: "https://cdn.dummyjson.com/product-images/4/thumbnail.jpg",
+    thumbnail:
+      "https://thefamilyenterprise.com/wp-content/uploads/2023/07/oppo-f19-price-in-nepal-1.png",
     images: [
       "https://cdn.dummyjson.com/product-images/4/1.jpg",
       "https://cdn.dummyjson.com/product-images/4/2.jpg",
@@ -81,7 +85,8 @@ const PRODUCTS = [
     stock: 32,
     brand: "Huawei",
     category: "smartphones",
-    thumbnail: "https://cdn.dummyjson.com/product-images/5/thumbnail.jpg",
+    thumbnail:
+      "https://www.creditasia.uz/upload/iblock/630/smartfon-huawei-p30-128gb-breathing-crystal-4.png",
     images: [
       "https://cdn.dummyjson.com/product-images/5/1.jpg",
       "https://cdn.dummyjson.com/product-images/5/2.jpg",
@@ -99,7 +104,8 @@ const PRODUCTS = [
     stock: 83,
     brand: "Apple",
     category: "laptops",
-    thumbnail: "https://cdn.dummyjson.com/product-images/6/thumbnail.png",
+    thumbnail:
+      "https://apps.nop-station.com/images/thumbs/0000024_apple-macbook-pro-13-inch_550.jpeg",
     images: [
       "https://cdn.dummyjson.com/product-images/6/1.png",
       "https://cdn.dummyjson.com/product-images/6/2.jpg",
@@ -118,7 +124,7 @@ const PRODUCTS = [
     stock: 50,
     brand: "Samsung",
     category: "laptops",
-    thumbnail: "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg",
+    thumbnail: "https://elmakon.uz/images/detailed/39/225.jpg",
     images: [
       "https://cdn.dummyjson.com/product-images/7/1.jpg",
       "https://cdn.dummyjson.com/product-images/7/2.jpg",
@@ -137,7 +143,7 @@ const PRODUCTS = [
     stock: 68,
     brand: "Microsoft Surface",
     category: "laptops",
-    thumbnail: "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
+    thumbnail: "https://m.media-amazon.com/images/I/61CfGWWIwpL.jpg",
     images: [
       "https://cdn.dummyjson.com/product-images/8/1.jpg",
       "https://cdn.dummyjson.com/product-images/8/2.jpg",
@@ -157,7 +163,8 @@ const PRODUCTS = [
     stock: 96,
     brand: "Infinix",
     category: "laptops",
-    thumbnail: "https://cdn.dummyjson.com/product-images/9/thumbnail.jpg",
+    thumbnail:
+      "https://www.ixbt.com/img/n1/news/2023/5/5/Infinix-INBOOK-X2-Slim-1024x958_large.jpg",
     images: [
       "https://cdn.dummyjson.com/product-images/9/1.jpg",
       "https://cdn.dummyjson.com/product-images/9/2.png",
@@ -177,7 +184,8 @@ const PRODUCTS = [
     stock: 89,
     brand: "HP Pavilion",
     category: "laptops",
-    thumbnail: "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg",
+    thumbnail:
+      "https://www.blessingcomputers.com/wp-content/uploads/2022/01/Hp-pavilion-Gaming-laptop-15-dk1056wm.png",
     images: [
       "https://cdn.dummyjson.com/product-images/10/1.jpg",
       "https://cdn.dummyjson.com/product-images/10/2.jpg",
@@ -196,7 +204,8 @@ const PRODUCTS = [
     stock: 65,
     brand: "Impression of Acqua Di Gio",
     category: "fragrances",
-    thumbnail: "https://cdn.dummyjson.com/product-images/11/thumbnail.jpg",
+    thumbnail:
+      "https://kaifragrance.com/cdn/shop/products/2001_01.jpg?v=1535492282",
     images: [
       "https://cdn.dummyjson.com/product-images/11/1.jpg",
       "https://cdn.dummyjson.com/product-images/11/2.jpg",
@@ -214,7 +223,7 @@ const PRODUCTS = [
     stock: 52,
     brand: "Royal_Mirage",
     category: "fragrances",
-    thumbnail: "https://cdn.dummyjson.com/product-images/12/thumbnail.jpg",
+    thumbnail: "https://m.media-amazon.com/images/I/610JMxRR1LL.jpg",
     images: [
       "https://cdn.dummyjson.com/product-images/12/1.jpg",
       "https://cdn.dummyjson.com/product-images/12/2.jpg",

@@ -268,7 +268,7 @@ main {
       .card {
         padding: 12px;
         width: 288px;
-        height: 473px;
+        height: 480px;
         background: #00000008;
         .img {
           img {
@@ -279,6 +279,7 @@ main {
             display: flex;
             justify-content: space-between;
             position: relative;
+            margin-bottom: 10px;
             z-index: 1;
             .galichka {
               display: flex;
