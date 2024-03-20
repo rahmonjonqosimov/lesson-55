@@ -31,7 +31,6 @@ document.addEventListener("scroll", () => {
 });
 
 import { PRODUCTS } from "./server.js";
-console.log(PRODUCTS);
 
 const cards = document.querySelector(".cards");
 
