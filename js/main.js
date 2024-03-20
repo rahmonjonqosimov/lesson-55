@@ -21,6 +21,15 @@ document.addEventListener("scroll", () => {
   }
 });
 
+document.addEventListener("scroll", () => {
+  if (window.scrollY >= 44) {
+    document.querySelector("#bottom-header").classList.add("shrink");
+    console.log(window.screenY);
+  } else {
+    document.querySelector("#bottom-header").classList.remove("shrink");
+  }
+});
+
 import { PRODUCTS } from "./server.js";
 console.log(PRODUCTS);
 
@@ -58,3 +67,13 @@ PRODUCTS.forEach((el, i) => {
   fragment.appendChild(div);
 });
 cards.appendChild(fragment);
+
+const backtop = document.querySelector(".backtop");
+
+document.addEventListener("scroll", () => {
+  if (window.scrollY >= 500) {
+    backtop.style.bottom = "40px";
+  } else {
+    backtop.style.bottom = "-40px";
+  }
+});
