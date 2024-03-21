@@ -24,7 +24,6 @@ document.addEventListener("scroll", () => {
 document.addEventListener("scroll", () => {
   if (window.scrollY >= 44) {
     document.querySelector("#bottom-header").classList.add("shrink");
-    console.log(window.screenY);
   } else {
     document.querySelector("#bottom-header").classList.remove("shrink");
   }
